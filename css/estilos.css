@@ -1,0 +1,181 @@
+/*------------------------------
+1. TIPOGRAFIA DEL SITIO
+--------------------------------*/
+html {
+  font-size: 14px;
+}
+
+/*------------------------------
+2. ESTILOS GENERALES
+--------------------------------*/
+.bg-primary {
+  background-color: #FCA914 !important;
+}
+
+.titulo {
+  color: #7A1E3E;
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.subtitulo {
+  background-color: #FCA914;
+  color: #494143;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: .5rem;
+}
+
+.texto {
+  color: #494143;
+}
+
+/*------------------------------
+3. INICIO
+--------------------------------*/
+#inicio {
+  /*Estilos al logotipo del sitio*/
+  /*Boton del menu responsive*/
+}
+#inicio .logo {
+  width: 8rem;
+}
+#inicio .navbar {
+  padding: 0;
+}
+#inicio .navbar-light .navbar-nav .nav-link {
+  color: #7A1E3E;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+#inicio .boton-menu:before {
+  content: '\f142';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #7A1E3E;
+  font-size: 3rem;
+}
+#inicio .icono-cerrar:before {
+  content: '\f00d';
+  position: relative;
+  font-size: 3rem;
+}
+
+/*------------------------------
+4. NOSOTROS
+--------------------------------*/
+/*------------------------------
+5. MENU
+--------------------------------*/
+#menu .nav-tabs .nav-link.active,
+#menu .nav-link:hover {
+  color: #7A1E3E;
+  background-color: #FCA914;
+  border-color: #7A1E3E #7A1E3E #7A1E3E;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+#menu .nav-tabs .nav-link {
+  border: 1px solid #7A1E3E;
+  color: #7A1E3E;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-left: .5rem;
+}
+#menu .nav-tabs {
+  border-bottom: 1px solid #7A1E3E;
+  margin-bottom: .5rem;
+}
+#menu .zoom {
+  position: relative;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  width: 24rem;
+  height: 14rem;
+}
+#menu .zoom img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#menu .zoom:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+#menu .sabor {
+  border: 2px solid #FCA914;
+  margin: 0 0 1.3rem 0;
+  width: 24rem;
+  height: 14rem;
+}
+
+/*------------------------------
+6. CONTACTO
+--------------------------------*/
+/*=============================================
+X. Medias Queries
+============================================= */
+/* --------------Vista sm ------------- */
+@media (min-width: 576px) {
+  .titulo::before, .titulo::after {
+    content: '';
+    position: absolute;
+    background-color: currentColor;
+    width: 4rem;
+    height: .3rem;
+    top: 2rem;
+  }
+  .titulo::before {
+    left: 28rem;
+  }
+  .titulo::after {
+    right: 28rem;
+  }
+}
+/* --------------Vista Md ------------- */
+@media (min-width: 768px) {
+  .titulo::before {
+    left: 34rem;
+  }
+  .titulo::after {
+    right: 34rem;
+  }
+
+  #inicio .navbar-light .navbar-nav .nav-link {
+    margin-right: 1.5rem;
+  }
+}
+/* --------------Vista lg ------------- */
+@media (min-width: 992px) {
+  .titulo::before {
+    left: 43rem;
+  }
+  .titulo::after {
+    right: 43rem;
+  }
+
+  #inicio .navbar-light .navbar-nav .nav-link {
+    margin-right: 3rem;
+  }
+
+  #menu .zoom {
+    width: 20rem;
+  }
+}
+/* --------------Vista Xl ------------- */
+@media (min-width: 1200px) {
+  .titulo::before {
+    left: 49rem;
+  }
+  .titulo::after {
+    right: 49rem;
+  }
+}

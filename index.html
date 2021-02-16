@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='images/favicon.png' rel='shortcut icon' type='image/png' />
+    <title>Los Tamalitos de Balbuena</title>
+
+
+    <!--  CARGA DE ESTILOS CSS DE BOOTSTRAP 4.6-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  CARGA DE FONT AWESOME -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CARGA DE ESTILOS CSS PERSONALIZADOS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!--=====================================
+	=            Sección inicio            =
+	======================================-->
+    <section id="inicio">
+        <header class="fixed-top">
+            <nav class="navbar navbar-light bg-primary navbar-expand-md" id="menu-navegacion">
+                <div class="container">
+                    <!--Logotipo del sitio-->
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo-amarillo.png" alt="Logo" class="img-fluid logo">
+                    </a>
+                    <!-- Botón del menú responsive -->
+                    <button type="button" class="navbar-toggler d-md-none" data-toggle="collapse"
+                        data-target="#menu-principal" aria-controls="menu-principal" arial-expanded="false"
+                        arial-label="Desplegar menu de navegacion">
+                        <span class="boton-menu"></span>
+                    </button>
+                    <!--Barra de navegación -->
+                    <div class="collapse navbar-collapse" id="menu-principal">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                            <li class="nav-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                            <li class="nav-item"><a href="#menu" class="nav-link">Menú</a></li>
+                            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                        </ul>
+                        <!--.navbar-nav-->
+                    </div><!-- .collapse-->
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/banner/16730291_1245026562279827_5249502105454029153_n.png" alt=""
+                        class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section><!-- #inicio-->
+
+    <!--=====================================
+	=            Sección nosotros            =
+	======================================-->
+    <main id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titulo">Nosotros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nam sint eos quos ratione possimus
+                        labore ipsa nostrum, blanditiis natus aliquam omnis assumenda est ducimus doloremque beatae
+                        magnam veniam consequatur! </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--=====================================
+	=            Sección menu            =
+	======================================-->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titulo">Menú</h2>
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link active" id="nav-atoles-tab" data-toggle="tab" href="#nav-atoles"
+                                role="tab" aria-controls="nav-atoles" aria-selected="true">Atoles</a>
+                            <a class="nav-link" id="nav-dulces-tab" data-toggle="tab" href="#nav-dulces" role="tab"
+                                aria-controls="nav-dulces" aria-selected="false">Tamales dulces</a>
+                            <a class="nav-link" id="nav-oaxaqueno-tab" data-toggle="tab" href="#nav-oaxaqueno"
+                                role="tab" aria-controls="nav-oaxaqueno" aria-selected="false">Tamales oaxaqueños</a>
+                            <a class="nav-link" id="nav-salados-tab" data-toggle="tab" href="#nav-salados" role="tab"
+                                aria-controls="nav-salados" aria-selected="false">Tamales de hoja de maíz</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-atoles" role="tabpanel"
+                            aria-labelledby="nav-atoles-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="texto h4 text-center">Disfrute nuestra gran variedad de atoles por
+                                            $44 el litro.</h2>
+                                        <h3 class="subtitulo">Tradicionales</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/chocolate.png" alt="chocolate" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Chocolate</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/cajeta.png" alt="cajeta" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Cajeta</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/fresa.png" alt="fresa" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Fresa</h3>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h3 class="subtitulo">Frutales</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/coco.png" alt="coco" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Coco</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/fresa.png" alt="fresa" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Fresa</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/guayaba-atole.png" alt="guayaba" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Guayaba</h3>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h3 class="subtitulo">Con un toque de licor</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/antillano.png" alt="antillano"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Antillano</h3>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h3 class="subtitulo">De cereales</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/amaranto.png" alt="amaranto" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Amaranto</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/arroz.png" alt="arroz" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Arroz</h3>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/atole/avena.png" alt="avena" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Avena</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--#nav-atoles-->
+                        <div class="tab-pane fade" id="nav-dulces" role="tabpanel" aria-labelledby="nav-dulces-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="texto h4 text-center">Disfrute nuestra gran variedad de tamales de
+                                            dulce por solo $23</h2>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/arrozconleche-tamal.png" alt="arroz con leche"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Arroz con leche</h3>
+                                        <p class="texto">Dulce tamal relleno de arroz con leche, ¡como el de la abuela!
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/flanhorneado-tamal.png" alt="flan horneado"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Flan horneado</h3>
+                                        <p class="texto">Delicioso tamal relleno de un gran pedazo de flan horneado.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/guayaba-tamal.png" alt="guayaba"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Guayaba</h3>
+                                        <p class="texto">Riquísimo tamal relleno de dulce de guayaba con canela.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/higo.png" alt="higo" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Higo</h3>
+                                        <p class="texto">Tradicional tamal relleno con higos naturales.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/manzana-tamal.png" alt="manzana"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Manzana</h3>
+                                        <p class="texto">Delicioso tamal relleno de dulce de manzana a la canela.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/galletaoreo-tamal.png" alt="galleta-oreo"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Galleta Óreo</h3>
+                                        <p class="texto">Delicioso tamal relleno con trozos de galleta Óreo.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/pasitas-tamal.png" alt="pasitas"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Pasitas</h3>
+                                        <p class="texto">Tradicional tamalito rosa de dulce con pasitas.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/pina-tamal.png" alt="piña" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Piña</h3>
+                                        <p class="texto">Tamalito relleno de dulce de piña natural.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/carlosv-tamal.png" alt="carlos V"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Carlos V</h3>
+                                        <p class="texto">Suculento tamal relleno con una barra completa de chocolate
+                                            Carlos V. ¡Se derrite por dentro!</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/gansito-tamal.png" alt="gansito"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Gansito</h3>
+                                        <p class="texto">Popular tamal relleno con un Gansito Marinela, ¡toda una
+                                            experiencia para los amantes del chocolate!</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/zarzamora-quesophiladelphia.png"
+                                                alt="zarzamora con queso" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Zarzamora con queso</h3>
+                                        <p class="texto">Delicioso y tradicional tamal relleno de dulce de zarzamora y
+                                            queso Philadelphia.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/dulces/cajeta-con-nuez-tamal.png" alt="cajeta con nuez"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Cajeta con nuez</h3>
+                                        <p class="texto">Delicioso tamal relleno de dulce de cajeta con nueces picadas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--#nav-dulces-->
+                        <div class="tab-pane fade" id="nav-oaxaqueno" role="tabpanel"
+                            aria-labelledby="nav-oaxaqueno-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="texto h4 text-center">Disfrute nuestra gran variedad de tamales en
+                                            hoja de plátano por solo $25</h2>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/campesino.png" alt="campesino"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Campesino</h3>
+                                        <p class="texto">Delicioso tamal de champiñones a la mexicana con queso
+                                            manchego.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/chipilin.png" alt="chipilin"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Chipilin</h3>
+                                        <p class="texto">Relleno de pollo y queso manchego en una deliciosa salsa de
+                                            jitomate sazonada con Chipilín (quelite tradicional del sureste mexicano)
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/costeño.png" alt="costeño"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Costeño</h3>
+                                        <p class="texto">Delicioso tamal de rajas de chile cuaresmeño con queso manchego
+                                            en una deliciosa salsa de jitomate con granos de elote.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/cubano.png" alt="cubano"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Cubano</h3>
+                                        <p class="texto">Relleno de frijolitos negros refritos, queso manchego y plátano
+                                            macho.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/endiablado.png" alt="endiablado"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Endiablado</h3>
+                                        <p class="texto">Para los que disfrutan del picante, tenemos éste tamal de carne
+                                            de puerco con salsa de chile morita.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/norteño.png" alt="norteño"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Norteño</h3>
+                                        <p class="texto">Suave carne de res en salsa de chile pasilla.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/xochitl.png" alt="xochitl"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Xochitl</h3>
+                                        <p class="texto">Nuestro tradicional tamal de verduras, relleno con flores de
+                                            calabazas, calabacitas a la mexicana, granos de elote y queso manchego.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/sabores.png" alt="chiapaneco"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Chiapaneco</h3>
+                                        <p class="texto">Exquisito tamal relleno de pollo, ciruela pasa, huevo cocido,
+                                            aceituna, plátano macho y bañado con nuestro tradicional mole.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/sabores.png" alt="Hallaca"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Hallaca</h3>
+                                        <p class="texto">Relleno de un tradicional guisado venezolano, contiene carne de
+                                            puerco, tocino, almendras, pollo, jamón y ciruelas. Bañado en deliciosa
+                                            salsa de achiote.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/mole-oaxaq.jpg" alt="Oaxaqueño de mole"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Oaxaqueño de mole</h3>
+                                        <p class="texto">Tradicional sabor de los tamales oaxaqueños, lleva pechuga de
+                                            pollo, ciruela, almendras y nuestro delicioso mole casero.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/mole-tamal.jpg" alt="Oaxaqueño verde"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Oaxaqueño verde</h3>
+                                        <p class="texto">Disfrute ésta versión del tamal oaxaqueño relleno de pechuga de
+                                            pollo, salsa verde y hoja santa.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/sabores.png" alt="Poblano"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Poblano</h3>
+                                        <p class="texto">Tamal relleno de una rica combinación de rajas de chile
+                                            poblano, calabacitas, granos de elote y queso manchego.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/verde.png" alt="Verdolagas verdes"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Verdolagas verdes</h3>
+                                        <p class="texto">Exquisito tamal de verdolagas en salsa verde con carne de
+                                            puerco de primera calidad.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/verdolagas.png" alt="Verdolagas rojas"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Verdolagas rojas</h3>
+                                        <p class="texto">Tamal relleno de costillita de cerdo con verdolagas en salsa
+                                            roja.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/yucateco.png" alt="Yucateco"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Yucateco</h3>
+                                        <p class="texto">Delicioso tamal relleno de deliciosa cochinita pibil estilo
+                                            Yucatán.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/sabores.png" alt="Quelite"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Quelite</h3>
+                                        <p class="texto">Tamal relleno de quelites, carne de puerco y salsa roja.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/mixiote.png" alt="Mixiote"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Mixiote</h3>
+                                        <p class="texto">Relleno de pechuga de pollo con nopalitos en salsa de adobo
+                                            estilo mixiote.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/oaxaqueños/sabores.png" alt="Chilorio"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Chilorio</h3>
+                                        <p class="texto">Carne de puerco estilo Sinaloa en una rica salsa de adobo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--#nav-oaxaqueno-->
+                        <div class="tab-pane fade" id="nav-salados" role="tabpanel" aria-labelledby="nav-salados-tab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h2 class="texto h4 text-center">Disfrute nuestra gran variedad de tamales de
+                                            sal en hoja de maíz por solo $23</h2>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/frijolesconqueso-tamal.png"
+                                                alt="Frijoles con queso" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Frijoles con queso</h3>
+                                        <p class="texto">Tradicional tamal de frijoles negros refritos y una rebanada de
+                                            queso panela.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/champiñones-tamal.png" alt="Champiñón"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Champiñón</h3>
+                                        <p class="texto">Delicioso tamal de champiñones a la mexicana con granos de
+                                            elote y un gran trozo de queso panela.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/rajasconqueso-tamal.png"
+                                                alt="Rajas con queso" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Rajas con queso</h3>
+                                        <p class="texto">Picosito tamal de rajas de chile cuaresmeño en salsita de
+                                            jitomate, granos de elote y queso panela.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/moleconpollo-tamal.png"
+                                                alt="Mole con pollo" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Mole con pollo</h3>
+                                        <p class="texto">Disfruta el mole tradicional de Los Tamalitos de Balbuena en
+                                            este tamal, con pollo y mole 100% hecho en casa.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/nopales-salsaverde-tamal.png"
+                                                alt="Nopales en salsa verde" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Nopales en salsa verde</h3>
+                                        <p class="texto">Jugoso tamal relleno con nopalitos en salsa verde y acompañados
+                                            con carne de puerco de primera calidad.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/morita-tamal.png" alt="Morita con puerco"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Morita con puerco</h3>
+                                        <p class="texto">Picosos tamal relleno de salsa de chile morita con un gran
+                                            trozo de carne de puerco.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/adobo-tamal.png" alt="Adobo con pollo"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Adobo con pollo</h3>
+                                        <p class="texto">Delicioso tamal relleno con pollo y adobo de chile ancho y
+                                            guajillo.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/verdolagasverdes-tamal.png"
+                                                alt="Verdolagas verdes" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Verdolagas verdes</h3>
+                                        <p class="texto">Tradicional tamal relleno de verdolagas en salsa verde con un
+                                            trozo de carne de puerco.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/verdolagasrojas-tamal.png"
+                                                alt="Verdolagas rojas" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Verdolagas rojas</h3>
+                                        <p class="texto">Tradicional tamal relleno de verdolagas en salsa roja con una
+                                            costillita de cerdo.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/cochinita-tamal.png"
+                                                alt="Cochinita Pibil" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Cochinita Pibil</h3>
+                                        <p class="texto">Delicioso tamal relleno con carne de puerco en una rica salsa
+                                            de achiote yucateco.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/resconpasilla-tamal.png"
+                                                alt="Res con pasilla" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Res con pasilla</h3>
+                                        <p class="texto">Tamal relleno de carne de res en una deliciosa salsa de chile
+                                            pasilla.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/hawaiano-tamal.png" alt="Hawaiano"
+                                                class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Hawaiano</h3>
+                                        <p class="texto">Divertido tamal relleno con piña, jamón, queso panela y
+                                            aderezado con un caldillo de jitomate.</p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="zoom">
+                                            <img src="images/salados-hoja-maiz/verdeconpollo-tamal.png"
+                                                alt="Verde con pollo" class="img-fluid sabor">
+                                        </div>
+                                        <h3 class="text-center">Verde con pollo</h3>
+                                        <p class="texto">Tradicional tamal relleno con salsa verde y un gran trozo de
+                                            pollo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--#nav-salados-->
+                    </div>
+                    <!--.tab-content-->
+                </div>
+                <!--col-12-->
+            </div>
+            <!--row-->
+        </div>
+        <!--.container-->
+    </section>
+    <!--#menu-->
+
+    <!--=====================================
+	=            Sección contacto            =
+	======================================-->
+    <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titulo">Contacto</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CARGAR DE JQUERY -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- CARGA DE BOOTSTRAP JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Carga de scripts.js -->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
