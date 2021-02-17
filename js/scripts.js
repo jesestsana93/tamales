@@ -15,4 +15,5 @@ $(function () {
         /*2) Contraemos el menu */
         $('#menu-navegacion .navbar-collapse').collapse('hide');
     });
+
 });

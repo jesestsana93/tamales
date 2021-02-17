@@ -144,6 +144,20 @@ html {
 /*------------------------------
 6. CONTACTO
 --------------------------------*/
+#contacto .google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+#contacto .google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 480px !important;
+}
+
 #redes {
   background-color: #7A1E3E;
   color: white;
@@ -160,6 +174,8 @@ html {
 }
 #redes .fab:hover {
   color: #FCA914;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
 }
 
 /*=============================================
@@ -211,6 +227,10 @@ X. Medias Queries
   #menu .zoom {
     width: 20rem;
   }
+
+  #contacto .google-maps {
+    padding-bottom: 55%;
+  }
 }
 /* --------------Vista Xl ------------- */
 @media (min-width: 1200px) {
@@ -219,5 +239,9 @@ X. Medias Queries
   }
   .titulo::after {
     right: 49rem;
+  }
+
+  #contacto .google-maps {
+    padding-bottom: 45%;
   }
 }
