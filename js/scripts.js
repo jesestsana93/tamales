@@ -16,4 +16,12 @@ $(function () {
         $('#menu-navegacion .navbar-collapse').collapse('hide');
     });
 
+    /*-----------------------------------------------------------
+    2. INICIANDO "page-scroll-to-id"
+    -------------------------------------------------------------*/
+    $('#menu-principal a').mPageScroll2id({
+        offset: 100,
+        highlightClass: 'active'
+    });
+
 });

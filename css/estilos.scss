@@ -61,6 +61,15 @@ html {
         text-align: center;
         font-size: 1.5rem;
         font-weight: bolder;
+        border-bottom: 2px solid $secundario;
+        transition: all .5s ease;
+
+        &.active{
+            background-color: $secundario;
+            color: $primario;
+            border-radius: 1rem;
+        }
+
     }
 
     /*Boton del menu responsive*/
@@ -245,6 +254,13 @@ X. Medias Queries
     #inicio {
         .navbar-light .navbar-nav .nav-link {
             margin-right: 1.5rem;
+            border-bottom: none;
+
+            &.active{
+                border-bottom: .3rem solid $secundario;
+                background-color: $primario;
+                color: $secundario;
+            }
         }
     }
 }

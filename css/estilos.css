@@ -53,6 +53,14 @@ html {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bolder;
+  border-bottom: 2px solid #7A1E3E;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#inicio .navbar-light .navbar-nav .nav-link.active {
+  background-color: #7A1E3E;
+  color: #FCA914;
+  border-radius: 1rem;
 }
 #inicio .boton-menu:before {
   content: '\f142';
@@ -209,6 +217,12 @@ X. Medias Queries
 
   #inicio .navbar-light .navbar-nav .nav-link {
     margin-right: 1.5rem;
+    border-bottom: none;
+  }
+  #inicio .navbar-light .navbar-nav .nav-link.active {
+    border-bottom: 0.3rem solid #7A1E3E;
+    background-color: #FCA914;
+    color: #7A1E3E;
   }
 }
 /* --------------Vista lg ------------- */
