@@ -32,6 +32,7 @@ html {
 
 .texto {
   color: #494143;
+  text-align: center;
 }
 
 /*------------------------------
@@ -57,7 +58,7 @@ html {
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
-#inicio .navbar-light .navbar-nav .nav-link.active {
+#inicio .navbar-light .navbar-nav .nav-link.active, #inicio .navbar-light .navbar-nav .nav-link:hover {
   background-color: #7A1E3E;
   color: #FCA914;
   border-radius: 1rem;
@@ -76,7 +77,28 @@ html {
 }
 
 /*------------------------------
-4. NOSOTROS
+4. SLIDER
+--------------------------------*/
+.slider .slick-slide img {
+  display: block;
+  height: 37rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 5rem;
+}
+.slider .slick-dots li button:before {
+  font-size: 3.5rem;
+  color: #7A1E3E;
+  opacity: 1;
+}
+.slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #FCA914;
+}
+
+/*------------------------------
+5. NOSOTROS
 --------------------------------*/
 #nosotros .card {
   border: none;
@@ -103,7 +125,7 @@ html {
 }
 
 /*------------------------------
-5. MENU
+6. MENU
 --------------------------------*/
 #menu .nav-tabs .nav-link.active,
 #menu .nav-link:hover {
@@ -133,6 +155,7 @@ html {
   overflow: hidden;
   width: 24rem;
   height: 14rem;
+  margin: auto;
 }
 #menu .zoom img {
   -webkit-transition: all .3s ease;
@@ -150,7 +173,7 @@ html {
 }
 
 /*------------------------------
-6. CONTACTO
+7. CONTACTO
 --------------------------------*/
 #contacto .google-maps {
   position: relative;
@@ -186,6 +209,20 @@ html {
           transform: scale(1.4);
 }
 
+/*------------------------------
+8. FOOTER
+--------------------------------*/
+footer hr {
+  height: 1px;
+  background-color: #FCA914;
+}
+footer .copyright p {
+  font-size: 1rem;
+}
+footer .copyright a {
+  color: #FCA914 !important;
+}
+
 /*=============================================
 X. Medias Queries
 ============================================= */
@@ -219,7 +256,7 @@ X. Medias Queries
     margin-right: 1.5rem;
     border-bottom: none;
   }
-  #inicio .navbar-light .navbar-nav .nav-link.active {
+  #inicio .navbar-light .navbar-nav .nav-link.active, #inicio .navbar-light .navbar-nav .nav-link:hover {
     border-bottom: 0.3rem solid #7A1E3E;
     background-color: #FCA914;
     color: #7A1E3E;

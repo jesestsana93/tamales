@@ -24,4 +24,18 @@ $(function () {
         highlightClass: 'active'
     });
 
+    /*-----------------------------------------------------------
+    3. CONFIGURACION DE SLICK PARA LA PARTE DEL BANNER
+    ------------------------------------------------------------*/
+    $('#banner').slick({
+        dots: true,
+        infinite: true,
+        speed: 2000,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000        
+    });
+
 });
